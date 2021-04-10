@@ -1,3 +1,6 @@
+##### 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+```java
 class Solution {
     public String replaceSpace(String s) {
         if(s.length()==0){
@@ -18,3 +21,4 @@ class Solution {
         return res.toString();
     }
 }
+```
