@@ -1,6 +1,5 @@
 //输出任意一个重复数字
 //哈希的思想
-```Java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int temp[]=new int[nums.length];
@@ -20,4 +19,4 @@ class Solution {
         return -1;
     }
 }
-```
+
