@@ -1,3 +1,21 @@
+### 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+ 
+
+示例 1：
+
+```in
+输入：s = "We are happy."
+```
+
+```out
+输出："We%20are%20happy."
+```
+
+
+
+
+```Java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,3 +40,4 @@ class Solution {
         return print;
     }
 }
+```
