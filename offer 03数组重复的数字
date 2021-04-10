@@ -1,0 +1,23 @@
+//输出任意一个重复数字
+//哈希的思想
+```java
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        int temp[]=new int[nums.length];
+        //给数组b全部赋值-1
+        for(int i=0;i<nums.length;i++){
+            temp[i]=-1;
+        }
+        //或者使用
+        Arrays.fill(temp,-1);
+        for(int i=0;i<nums.length;i++){
+            if(temp[nums[i]]!=-1){
+                return nums[i];
+            }
+            
+            temp[nums[i]]=i;
+        }
+        return -1;
+    }
+}
+```
