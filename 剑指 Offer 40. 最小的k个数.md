@@ -31,6 +31,7 @@ arr = [0,1,2,1], k = 1
 ```
 
 ```Java
+
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         quickSort(arr, 0, arr.length - 1);
