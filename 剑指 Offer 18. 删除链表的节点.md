@@ -38,14 +38,12 @@ head = [4,5,1,9], val = 1
 
 
 ```Java
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+       // 定义一个节点
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         if(head.val == val) return head.next;
