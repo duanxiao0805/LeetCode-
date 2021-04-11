@@ -24,7 +24,7 @@
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int temp[]=new int[nums.length];
-        //给数组b全部赋值-1
+        //给数组temp全部赋值-1
         for(int i=0;i<nums.length;i++){
             temp[i]=-1;
         }
@@ -41,3 +41,4 @@ class Solution {
     }
 }
 ```
+temp是辅助数组,哈希的思想,一一对应
