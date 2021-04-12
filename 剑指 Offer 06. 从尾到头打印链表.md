@@ -1,29 +1,31 @@
-### 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+### 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
 
  
 
-示例 1：
+示例:
+
+输入: 
 
 ```in
-输入：s = "We are happy."
+1->2->3->4->5->NULL
 ```
 
+输出:
+
 ```out
-输出："We%20are%20happy."
+ 5->4->3->2->1->NULL
 ```
 
 
 
 
 ```Java
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+//Definition for singly-linked list.
+ public class ListNode {
+       int val;
+       ListNode next;
+       ListNode(int x) {val = x; }
+ }
 class Solution {
     public int[] reversePrint(ListNode head) {
         Stack<ListNode> stack= new Stack<ListNode>();
