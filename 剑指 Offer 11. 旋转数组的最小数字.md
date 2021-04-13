@@ -30,6 +30,7 @@
 0
 ```
 ```Java
+
 class Solution {
     public int minArray(int[] numbers) {
         int l=0,r=numbers.length-1;
