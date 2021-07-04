@@ -41,6 +41,7 @@ n = 5
 ```
 
 
+
 ```Java
 class Solution {
 public int fib(int n) {
@@ -54,4 +55,32 @@ public int fib(int n) {
     return a%1000000007;
 }
 }
+```
+
+
+**动态规划做法**
+
+首先,找到它的初始值状态,f[0]=0,f[1]=1,f[2]=1;
+
+因为它的状态转移方程为:f[n]=f[n-1]+f[n-2]
+
+那么我让它从3开始就好了,0和1和2的时候 特判. 因为输入0,1,2的时候,状态转移方程没法用
+
+
+代码实现:
+```java
+class Solution {
+    public int fib(int n) {
+        int [] f=new int[n+1];
+        if(n==0) return 0;
+        if (n <= 2) return 1;
+        f[1]=1;
+        f[2]=1;
+        for(int i=3;i<=n;i++){
+            f[i]=f[i-1]+f[i-2];
+        }
+        return f[n];
+    }
+}
+
 ```
