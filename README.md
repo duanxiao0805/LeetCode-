@@ -15,7 +15,7 @@
 |   剑指22    | [链表中倒数第](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/剑指Offer22.链表中倒数第k个节点.md) | easy      |
 |     25      | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) |                                                              | difficult |
 |     23      | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) |                                                              | difficult |
-|     61      |   [旋转链表](https://leetcode-cn.com/problems/rotate-list)   |                                                              | medium    |
+|     61      |   [旋转链表](https://leetcode-cn.com/problems/rotate-list)   |[✅](https://github.com/duanxiao0805/LeetCode-/blob/main/61.旋转链表.md)| medium    |
 |     92      | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/92.反转链表II.md) | medium    |
 |   剑指06    | [从尾到头打印](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) |                                                              | easy      |
 |     234     | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/234.回文链表.md) | easy      |
