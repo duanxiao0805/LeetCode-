@@ -7,11 +7,11 @@
 |    题号     |                           原题链接                           |                          自己的总结                          | 难度      |
 | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: | --------- |
 |     206     | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/206.反转链表.md) | easy      |
-|      2      | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) |                                                              | medium    |
+|      2      | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/2.两数相加.md) | medium    |
 |     19      | [删除链表的倒数第 N 个结](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/(二刷)19.删除链表的倒数第N个结点.md) | medium    |
 |     21      | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) |                                                              | easy      |
 |     141     | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/141.环形链表.md) | easy      |
-|     24      | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) |                                                              | medium    |
+|     24      | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/24.两两交换链表中的节点.md) | medium    |
 |   剑指22    | [链表中倒数第](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [✅](https://github.com/duanxiao0805/LeetCode-/blob/main/剑指Offer22.链表中倒数第k个节点.md) | easy      |
 |     25      | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) |                                                              | difficult |
 |     23      | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) |                                                              | difficult |
@@ -63,3 +63,6 @@
 |    1721     | [交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list) |                                                              | medium    |
 |    1171     | [从链表中删去总和值为](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list) |                                                              | medium    |
 |             |                                                              |                                                              |           |
+
+
+
